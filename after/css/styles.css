@@ -1,0 +1,159 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Kiwi Maru', serif;
+}
+
+#header-nav{
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img{
+	background: url('../images/boba.png') no-repeat;
+	width: 160px;
+	height: 140px;
+	margin: 10px 15px 10px 0;
+} 
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	color: orange;
+	text-shadow: 1px 1px 1px red;
+	font-size: 2.2em;
+	font-weight: bold;
+	margin-top: 0;
+
+}
+
+/**-- hover action --**/
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+/**-- shake it... styling --**/
+.navbar-brand p{
+	color: orange;
+	text-shadow: 1px 1px 1px red;
+	font-size: 1em;
+	margin-top: 11px;
+	text-align: center;
+}
+/**-- Menu..buttons --**/
+#nav-list{
+	margin-top: 20px; 
+	font-size: 0.9em;
+}
+#nav-list a {
+	color: black;
+	text-align: center;
+}
+#nav-list a span{
+	font-size: 1em
+}
+#nav-list a:hover{
+	color: orange;
+	text-shadow: 1px 1px 1px red;
+
+	transform: scale(1.3);
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid black;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -2px;
+
+}
+.container .jumbotron{
+	box-shadow: 0 0 50px red;
+		border: 2px solid orange;
+		padding: 0;
+
+}
+
+@media (min-width: 1200px){
+	
+
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width:1199px){
+	
+		
+
+	}
+}
+
+
+
+@media (min-width: 768px)and (max-width: 991px){
+#nav-list{
+	margin-top: 20px; 
+	font-size: 0.2em;
+}
+#nav-list a span{
+	font-size: 0.2em
+}
+.navbar-brand h1{
+	
+	font-size: 1.7em;
+	margin-bottom: 0.1;
+
+}
+.navbar-brand p{
+	font-size: 0.8em;
+	margin-top: 0;
+
+	}
+
+	
+}
+@media (max-width: 767px){
+	
+.navbar-brand h1{
+	
+	font-size: 1.7em;
+	margin-bottom: 0.1;
+
+}
+.navbar-brand p{
+	font-size: 0.8em;
+	margin-top: 0;
+
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
